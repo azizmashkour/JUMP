@@ -1,7 +1,13 @@
 {
-  "translations" : {
-    "Users agent mamagement": "Management des clients",
-    "Settings": "Paramètres",
-    "Switch language": "Choisir langue"
+  "login" : {
+    "users_agent_mamagement": "Management des clients",
+    "settings": "Paramètres",
+    "switch_language": "Choisir langue",
+    "please_authenticate": "Veuillez vous authentifier",
+    "user": "Utilisateur",
+    "error_message": "Message d'erreur",
+    "password": "Mot de passe",
+    "submit": "Soumettre",
+    "jump_application": "Application JUMP"
   }
 }

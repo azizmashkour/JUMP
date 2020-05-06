@@ -1,7 +1,16 @@
 {
-  "translations" : {
-    "Users agent mamagement": "Users agent mamagement",
-    "Settings": "Settings",
-    "Switch language": "Switch language"
+  "login" : {
+    "users_agent_mamagement": "Users agent mamagement",
+    "settings": "Settings",
+    "switch_language": "Switch language",
+    "please_authenticate": "Please authenticate",
+    "user": "Username",
+    "error_message": "Error Message",
+    "password": "Password",
+    "submit": "Submit",
+    "jump_application": "JUMP Application",
+    "enter_username": "Enter username",
+    "enter_password": "Enter password"
+
   }
 }

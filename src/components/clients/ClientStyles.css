@@ -1,0 +1,99 @@
+table {
+  border-collapse: collapse;
+}
+.table-responsive {
+  clear: both;
+	height: 285px;
+	overflow: auto;
+}
+
+html>body div.table-responsive {
+	overflow: hidden;
+}
+
+/* define width of table. IE browsers only                 */
+div.table-responsive table {
+	float: left;
+}
+
+.table-responsive {
+  border: 1px solid #000;
+}
+
+.table-light, .table-light>td, .table-light>th {
+  background-color: #fdfdfe;
+}
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.table thead {
+  position: relative;
+}
+
+.table-bordered td:first-child, .table-bordered th:first-child {
+    border-left: 0;
+}
+
+thead th {
+	background: rgb(204, 204, 204);
+	font-weight: normal;
+	padding: 4px 3px;
+	text-align: left
+}
+
+html>body tbody {
+	display: block;
+	height: 262px;
+	overflow: auto;
+	width: 100%
+}
+
+html>body thead {
+	display: table;
+	overflow: auto;
+	width: 100%
+}
+
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-left: 1px solid #000;
+}
+.table-bordered td, .table-bordered th {
+  border-left: 1px solid #000;
+}
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+}
+th {
+    text-align: inherit;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,.05);
+}
+.table-container {
+  width: 30rem;
+}
+.text-center {
+  text-align: center;
+}
+legend {
+  padding-left: 0;
+}
+fieldset {
+  margin-top: 3rem;
+}
+.client-check {
+  cursor: pointer;
+}

@@ -12,7 +12,6 @@ class App extends Component{
           <Switch>
               {routes.map((route, i) => {
                 return <Route key={i}
-                  authRequired={route.authRequired}
                   exact={route.exact}
                   path={route.path}
                   component={route.component}

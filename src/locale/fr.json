@@ -9,5 +9,14 @@
     "password": "Mot de passe",
     "submit": "Soumettre",
     "jump_application": "Application JUMP"
+  },
+  "client_details": {
+    "details": "Détails",
+    "address": "Adresse"
+  },
+  "client_list": {
+    "clients_list": "Liste des clients",
+    "first_name": "Nom",
+    "last_name": "Prénom"
   }
 }

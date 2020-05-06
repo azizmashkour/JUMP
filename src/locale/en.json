@@ -11,6 +11,14 @@
     "jump_application": "JUMP Application",
     "enter_username": "Enter username",
     "enter_password": "Enter password"
-
+  },
+  "client_details": {
+    "details": "Details",
+    "address": "Adress"
+  },
+  "client_list": {
+    "clients_list": "Clients list",
+    "first_name": "First Name",
+    "last_name": "Last Name"
   }
 }

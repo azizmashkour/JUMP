@@ -6,10 +6,13 @@ import ClientDetails from './ClientDetails';
 import './ClientStyles.css';
 
 const ClientList = (props) => {
-  const [state, setState] = useState({ address: null });
+  const [state, setState] = useState({ address: null, ctiveClientId: null });
 
-  const handleCheckaddress =(e)=> {
-      setState({ address: e.target.value });
+  const handleCheckaddress =(e, clientId)=> {
+      setState({
+        address: e.target.value,
+        ctiveClientId: clientId,
+      });
   }
 
   return (
@@ -29,9 +32,11 @@ const ClientList = (props) => {
               {
                 FakeClients.map((client, index) => {
                   return (
-                    <tr key={index}>
+                    <tr key={index} className={client.id === state.ctiveClientId ? "active_client" : ""}>
                       <td className="text-center">
-                        <input className="client-check" id={client.id} type="radio" name="id" value={client.address} onClick={(e) =>handleCheckaddress(e)}/>
+                        <label htmlFor={client.id}>
+                          <input className="client-check" id={client.id} type="radio" name="id" value={client.address} onClick={(e) =>handleCheckaddress(e, client.id)}/>
+                        </label>
                       </td>
                       <td>{client.nom}</td>
                       <td>{client.prenom}</td>

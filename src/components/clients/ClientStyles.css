@@ -97,3 +97,6 @@ fieldset {
 .client-check {
   cursor: pointer;
 }
+tr:hover, .active_client {
+  background-color: rgb(154, 191, 240)!important;
+}

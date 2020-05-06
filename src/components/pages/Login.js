@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { withTranslation } from 'react-i18next';
 import Header from '../layouts/Header';
 
@@ -74,26 +75,30 @@ const Login = (props) => {
 
   return (
     <div>
-    <Header />
-    <h1 className="Lab__title">{t('login.jump_application')}</h1>
-    <div className="container">
+      <Header />
+      <h1 className="Lab__title">{t('login.jump_application')}</h1>
+      <div className="container">
         <form id="form" className="form" ref={formRef}>
           <h2>{t('login.please_authenticate')}</h2>
           <div className="form-control">
-            <label for="username">{t('login.user')}</label>
-            <input type="text" id="username" placeholder={t('login.enter_username')} ref={usernameRef} onChange={(e) =>handleInputChange('username')}/>
+            <label htmlFor="username">{t('login.user')}</label>
+            <input autoComplete="off" type="text" id="username" placeholder={t('login.enter_username')} ref={usernameRef} onChange={(e) =>handleInputChange('username')}/>
             <small>{t('login.error_message')}</small>
           </div>
           <div className="form-control">
-            <label for="password">{t('login.password')}</label>
-            <input type="password" id="password" placeholder={t('login.enter_password')} ref={passwordRef} onChange={(e) =>handleInputChange('password')}/>
+            <label htmlFor="password">{t('login.password')}</label>
+            <input autoComplete="off" type="password" id="password" placeholder={t('login.enter_password')} ref={passwordRef} onChange={(e) =>handleInputChange('password')}/>
             <small>{t('login.error_message')}</small>
           </div>
           <button type="submit" onClick={(e) =>submitForm(e)}>{t('login.submit')}</button>
         </form>
-    </div>
+      </div>
     </div>
   );
+};
+
+Login.propTypes = {
+  t: PropTypes.func.isRequired,
 };
 
 export default withTranslation()(Login);

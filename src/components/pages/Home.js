@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
-import { withTranslation } from 'react-i18next';
-const Home = ({lang, i18n, t}) => {
+import React from 'react';
+import Header from '../layouts/Header';
+import ClientList from '../clients/ClientList';
+
+const Home = () => {
 
   return (
-    <div className="container">
-    </div>
+    <>
+      <Header />
+      <ClientList/>
+    </>
   );
 };
 
-export default withTranslation()(Home);
+export default Home;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { withTranslation } from 'react-i18next';
 import BrowserLanguage from '../../utils/BrowserLanguage';
 import Select from 'react-select';
@@ -40,6 +41,14 @@ const Header = ({lang, i18n, t}) => {
       />
     </div>
   );
+};
+
+Header.propTypes = {
+  t: PropTypes.func.isRequired,
+  i18n: PropTypes.shape({
+    defaultNS: PropTypes.string,
+    changeLanguage: PropTypes.func,
+  }).isRequired,
 };
 
 export default withTranslation()(Header);

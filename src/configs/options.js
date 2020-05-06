@@ -4,3 +4,8 @@ export const options = [
   { value: 'en', label: 'English' },
   { value: 'fr', label: 'Français' },
 ];
+
+export const langs = {
+  'en': 'English',
+  'fr': 'Français',
+}

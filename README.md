@@ -5,6 +5,8 @@ This project was generated with [Create React apps with no build configuration](
 ## Libraries used
 - i18next: Used for i18n browser translation (french and english). [read more here](https://react.i18next.com/)
 - enzyme: Used for testing. [read more here](https://airbnb.io/enzyme/)
+- prop-types: Used for types validations. [read more here](https://www.npmjs.com/package/prop-types)
+- react-select: Used for language select box. [read more here](https://react-select.com/home)
 
 ## Getting Started
 1- Clone or download this project from the repository.

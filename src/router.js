@@ -1,16 +1,14 @@
-import Home from './components/pages/Home';
-import Login from './components/pages/Login';
+import Home from './components/pages/home/Home';
+import Login from './components/pages/login/Login';
 
 export default [
   {
     exact: true,
-    path: "/login",
+    path: "/",
     component: Login,
-    authRequired: false
   },
   {
-    path: "/",
+    path: "/clients",
     component: Home,
-    authRequired: true
   },
 ]

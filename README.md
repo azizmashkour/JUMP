@@ -1,8 +1,10 @@
 # Clients management
 
-[![Build Status](https://travis-ci.org/azizmashkour/JUMP.svg?branch=master)](https://travis-ci.org/azizmashkour/JUMP)
+[![CircleCI](https://circleci.com/<VCS>/azizmashkour/JUMP.svg?style=svg&circle-token=a2e2db89c6dd79bcc0285672550412bc695581fd)](https://travis-ci.org/azizmashkour/JUMP)
 
 This project was generated with [Create React apps with no build configuration](https://github.com/facebook/create-react-app)
+
+![image](https://raw.githubusercontent.com/azizmashkour/JUMP/master/public/preview.png)
 
 ## Libraries used
 - i18next: Used for i18n browser translation (french and english). [read more here](https://react.i18next.com/)
@@ -29,10 +31,10 @@ Run `npm run test` or `yarn test` to execute the unit tests via [Karma](https://
 
 ## Continuous integration used
 
-This project is setup to be build by [TravisCI](https://travis-ci.com/) after every deployment on Github
+This project is setup to be build by [CircleCI](https://circleci.com/) after every deployment on Github
 
 ## Demo
-You will find a Demo or the working project [here]()
+You will find a Demo or the working project [here](https://baracoda-app.firebaseapp.com/)
 
 ## Other details
 Don't hesitate to put any comment here 😉.

@@ -1,5 +1,7 @@
 # Clients management
 
+[![Build Status](https://travis-ci.org/azizmashkour/JUMP.svg?branch=master)](https://travis-ci.org/azizmashkour/JUMP)
+
 This project was generated with [Create React apps with no build configuration](https://github.com/facebook/create-react-app)
 
 ## Libraries used

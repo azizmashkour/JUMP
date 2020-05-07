@@ -1,6 +1,6 @@
 # Clients management
 
-[![CircleCI](https://circleci.com/<VCS>/azizmashkour/JUMP.svg?style=svg&circle-token=a2e2db89c6dd79bcc0285672550412bc695581fd)](https://travis-ci.org/azizmashkour/JUMP)
+[![CircleCI](https://circleci.com/gh/azizmashkour/JUMP.svg?style=svg&circle-token=a2e2db89c6dd79bcc0285672550412bc695581fd)](https://github.com/azizmashkour/JUMP)
 
 This project was generated with [Create React apps with no build configuration](https://github.com/facebook/create-react-app)
 

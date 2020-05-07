@@ -3,7 +3,7 @@ dist: trusty
  before_install:
   - sudo apt-get -y install libu2f-udev libvulkan1
 
- language: node_js
+language: node_js
  node_js:
    - "stable"
 

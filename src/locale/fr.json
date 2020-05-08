@@ -20,5 +20,10 @@
     "last_name": "Prénom",
     "search_client": "Rechercher des clients par: prénom ou nom",
     "no_client_found": "UPS! Aucun client ne correspond aux mots clés de recherche."
+  },
+  "graph": {
+    "graph_simulator": "Simulateur du parcours de Graphe",
+    "add_numbers_to_check": "Tapez les chiffres séparés par un coma pour tester. Ex: 1, 2, 3, 5",
+    "result_for_input": "Résultat pour la saisie"
   }
 }

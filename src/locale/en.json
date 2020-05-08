@@ -22,5 +22,10 @@
     "last_name": "Last Name",
     "search_client": "Search clients by: first or last name",
     "no_client_found": "Ups! There is no client matching the search keywords."
+  },
+  "graph": {
+    "graph_simulator": "Walk Graph Simulator",
+    "add_numbers_to_check": "Type numbers separated by coma to test. Ex: 1, 2, 3, 5",
+    "result_for_input": "Result for input"
   }
 }

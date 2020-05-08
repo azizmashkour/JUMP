@@ -79,7 +79,7 @@ const Login = (props) => {
       <Header />
       <h1 className="Lab__title">{t('login.jump_application')}</h1>
       <div className="container">
-        <form id="form" className="form" ref={formRef}>
+        <form id="form" className="form" ref={formRef} onSubmit={(e) =>submitForm(e)}>
           <h2>{t('login.please_authenticate')}</h2>
           <div className="form-control">
             <label htmlFor="username">{t('login.user')}</label>
@@ -107,7 +107,7 @@ const Login = (props) => {
             />
             <small>{t('login.error_message')}</small>
           </div>
-          <button type="submit" onClick={(e) =>submitForm(e)}>{t('login.submit')}</button>
+          <button type="submit">{t('login.submit')}</button>
         </form>
       </div>
     </div>

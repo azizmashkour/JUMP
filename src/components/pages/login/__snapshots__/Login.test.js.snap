@@ -1,5 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Login /> should check input lenghts from login component 1`] = `ShallowWrapper {}`;
-
-exports[`<Login /> should display login component 1`] = `ShallowWrapper {}`;
+exports[`Login should display Header component 1`] = `ShallowWrapper {}`;

@@ -3,25 +3,47 @@ import { shallow } from "enzyme";
 import Login from "./Login";
 import Header from '../../layouts/Header';
 
-describe('<Login />', () => {
-  const submitForm = jest.fn();
-  const wrapper = shallow(<Login submitForm={submitForm}/>);
+describe("Login", () => {
+  const mockSubmit = jest.fn();
+  const wrapper = shallow(<Login submit={mockSubmit} />);
 
-  it("should display login component", () => {
+  it("should display Header component", () => {
     expect(wrapper.find(Header)).toBeTruthy();
-    expect(wrapper.find("h1.Lab__title")).toBeTruthy();
-    expect(wrapper.find("form.form")).toBeTruthy();
-    expect(wrapper.find("form.form>h2")).toBeTruthy();
     expect(wrapper).toMatchSnapshot();
   });
 
-  it("should check input lenghts from login component", () => {
-    const checkLength = jest.fn(() => true);
+  describe("handleChange", () => {
+    const inputs = [
+      { name: 'username', value: 'azizmashkour', id: 'username' },
+      { name: 'password', value: 'Test#123', id: 'password' },
+    ];
 
-    checkLength();
+    const event = {
+      preventDefault() {},
+      target: { value: "the value" }
+    };
 
-    expect(checkLength).toHaveReturned();
-    expect(wrapper).toMatchSnapshot();
-  });
+    inputs.forEach(({ name, value }) => {
+      it(`calls handleChange for ${name}`, () => {
+        // console.log('namenamename', name, `#${name}`);
+        // const input = wrapper.find(`#${name}`);
+        // console.log('DEBUGGING::input finding word', input.debug());
+        // console.log('input finding word LENGHTS', input.length);
 
-});
+        // const input = wrapper.find({ name }).first();
+        // expect(input.exists()).toEqual(true)
+        //
+        // input.simulate('change', { target: { value } });
+        //
+        // console.log(input.instance());
+        //
+        // expect(handleChange).toBeCalled();
+      });
+    });
+
+    // wrapper.instance().handleChange(event);
+    //
+    // expect(wrapper.state()).toEqual(expected);
+  })
+
+})

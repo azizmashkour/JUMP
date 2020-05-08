@@ -109,3 +109,15 @@ tr {
   width: 100%;
   box-sizing: border-box;
 }
+
+.text-danger {
+  color: #e74c3c;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}

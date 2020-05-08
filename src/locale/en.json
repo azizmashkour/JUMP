@@ -19,6 +19,8 @@
   "client_list": {
     "clients_list": "Clients list",
     "first_name": "First Name",
-    "last_name": "Last Name"
+    "last_name": "Last Name",
+    "search_client": "Search clients by: first or last name",
+    "no_client_found": "Ups! There is no client matching the search keywords."
   }
 }

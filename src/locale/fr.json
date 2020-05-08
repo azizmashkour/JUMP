@@ -17,6 +17,8 @@
   "client_list": {
     "clients_list": "Liste des clients",
     "first_name": "Nom",
-    "last_name": "Prénom"
+    "last_name": "Prénom",
+    "search_client": "Rechercher des clients par: prénom ou nom",
+    "no_client_found": "UPS! Aucun client ne correspond aux mots clés de recherche."
   }
 }

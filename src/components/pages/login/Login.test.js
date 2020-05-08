@@ -25,10 +25,10 @@ describe("Login", () => {
 
     inputs.forEach(({ name, value }) => {
       it(`calls handleChange for ${name}`, () => {
-        console.log('namenamename', name, `#${name}`);
-        const input = wrapper.find(`#${name}`);
-        console.log('DEBUGGING::input finding word', input.debug());
-        console.log('input finding word LENGHTS', input.length);
+        // console.log('namenamename', name, `#${name}`);
+        // const input = wrapper.find(`#${name}`);
+        // console.log('DEBUGGING::input finding word', input.debug());
+        // console.log('input finding word LENGHTS', input.length);
 
         // const input = wrapper.find({ name }).first();
         // expect(input.exists()).toEqual(true)

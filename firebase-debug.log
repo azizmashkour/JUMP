@@ -1,0 +1,14 @@
+[debug] [2020-05-08T16:56:22.744Z] ----------------------------------------------------------------------
+[debug] [2020-05-08T16:56:22.747Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-05-08T16:56:22.747Z] CLI Version:   7.8.1
+[debug] [2020-05-08T16:56:22.747Z] Platform:      darwin
+[debug] [2020-05-08T16:56:22.747Z] Node Version:  v12.16.1
+[debug] [2020-05-08T16:56:22.752Z] Time:          Fri May 08 2020 17:56:22 GMT+0100 (West Africa Standard Time)
+[debug] [2020-05-08T16:56:22.752Z] ----------------------------------------------------------------------
+[debug] [2020-05-08T16:56:22.753Z] 
+[debug] [2020-05-08T16:56:22.767Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-08T16:56:22.767Z] > authorizing via signed-in user
+[debug] [2020-05-08T16:56:22.768Z] [iam] checking project baracoda-app for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-05-08T16:56:22.769Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-08T16:56:22.770Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

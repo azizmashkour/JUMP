@@ -83,12 +83,28 @@ const Login = (props) => {
           <h2>{t('login.please_authenticate')}</h2>
           <div className="form-control">
             <label htmlFor="username">{t('login.user')}</label>
-            <input autoComplete="off" type="text" id="username" placeholder={t('login.enter_username')} ref={usernameRef} onChange={(e)=>handleInputChange('username')}/>
+            <input
+              autoComplete="off"
+              type="text"
+              id="username"
+              name="username"
+              placeholder={t('login.enter_username')}
+              ref={usernameRef}
+              onChange={(e)=>handleInputChange('username')}
+            />
             <small>{t('login.error_message')}</small>
           </div>
           <div className="form-control">
             <label htmlFor="password">{t('login.password')}</label>
-            <input autoComplete="off" type="password" id="password" placeholder={t('login.enter_password')} ref={passwordRef} onChange={(e)=>handleInputChange('password')}/>
+            <input
+              autoComplete="off"
+              type="password"
+              id="password"
+              name="password"
+              placeholder={t('login.enter_password')}
+              ref={passwordRef}
+              onChange={(e)=>handleInputChange('password')}
+            />
             <small>{t('login.error_message')}</small>
           </div>
           <button type="submit" onClick={(e) =>submitForm(e)}>{t('login.submit')}</button>
